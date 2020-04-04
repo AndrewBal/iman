@@ -317,7 +317,7 @@ a {
 
 .info-table-1__body__item_text {
     font-size: 13px;
-    color: #343a40`;
+    color: #343a40;
 }
 
 .info-table-1__body__btn {
@@ -338,6 +338,7 @@ a {
     font-weight: bolder;
     width: 180px;
     height: 45px;
+    color: #212529;
 }
 
 
@@ -429,6 +430,7 @@ video {
 .info-table-2__text {
     margin-top: 10px;
     text-align: justify;
+    color: #343a40;
 }
 
 .slick-list {
@@ -712,6 +714,7 @@ strong {
         align-items: unset;
         justify-content: unset;
         min-height: 250px;
+        width: 365px
     }
     .item-img {
         height: 125px;
@@ -719,12 +722,112 @@ strong {
     .item-img img {
         width: 90px;
     }
+    .info-table-1__body__item_text {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .info-table-1__body__btn button {
+        font-size: 1.25rem;
+        width: 260px;
+        height: 64px;
+
+    }
+
+    .info-table-1__body__btn {
+        margin: 20px auto 60px;
+    }
+
+    .video-table__title {
+        font-size: 1.5rem;
+        width: 592px;
+        margin: auto;
+    }
+
+    video {
+        width: 670px;
+    }
+
+    .video-table__btn button {
+        font-size: 1.25rem;
+        width: 260px;
+        height: 64px;
+    }
+
+    .form-order__small-text span {
+        font-size: 1rem;
+    }
+    .form-order__small-text {
+        width: 294px;
+        background-size: 22px;
+        padding: 0 0 0 29px;
+    }
+    .video-table {
+
+        padding-bottom: 50px;
+    }
+    .info-table-2__img img {
+        width: 1200px;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    }
+
+    .info-table-2__text {
+        width: 1200px;
+        text-align: justify;
+        margin: 14px auto;
+    }
+    .info-table-2__text p {
+        font-size: 1.1rem;
+    }
+    .info-table-2__body {
+        padding: 35px 0;
+    }
+
+    .slick-list {
+        width: 1100px;
+        left: -415px;
+    }
+    .reviews-table {
+        width: 1000px;
+    }
+
+    .delivery-table-body {
+        height: 150px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .delivery-table__item__p {
+        width: 300px;
+        font-size: 1.2rem;
+    }
+
+    .delivery-table__item__h {
+        font-size: 1.35rem;
+    }
+
+    .delivery-table {
+        padding: 30px 0;
+    }
+
+    .reviews-table__text {
+        margin-top: 8px;
+    }
+
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
+    video {
+        width: 670px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+    video {
+        width: 670px;
+    }
 }
 @media (min-width: 993px) and (max-width: 1199px) {
+    video {
+        width: 670px;
+    }
 }
 @media (min-width: 767px) and (max-width: 992px) {
     .main-table {

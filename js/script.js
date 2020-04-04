@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('.reviews-table__slider').slick({
         prevArrow: null,
         nextArrow: null,
-        slidesToShow: 1,
+        slidesToShow: 3,
         responsive: [
             {
                 breakpoint: 1024,
